@@ -4,5 +4,14 @@ The real estate domain involves property listings, sales transactions, agent per
 BrickView is a SQL-powered real estate analytics dashboard built using Python and Streamlit to analyze property listings, agent performance, sales efficiency, and buyer behavior. The platform integrates normalized relational data and delivers 30 business insights through interactive filters, charts, and location-based visualizations.
 # Objective 
 The objective of this project is to design a structured real estate analytics system that transforms raw listing and sales data into actionable insights using SQL and visual dashboards. It aims to support buyers, agents, and investors in making data-informed decisions.
+# Data preparation & Cleaning 
+## Data sources 
+listings_final_expanded.json
 
+property_attributes_final_expanded.json
 
+agents_cleaned.json
+
+sales_cleaned.csv
+
+buyers_cleaned.json
