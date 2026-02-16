@@ -15,3 +15,32 @@ agents_cleaned.json
 sales_cleaned.csv
 
 buyers_cleaned.json
+## cleaning & standardization Process
+Converted all column names to lowercase
+
+Removed spaces and replaced with underscores for consistency
+
+Ensured uniform naming conventions across datasets
+
+Verified that all JSON files were flat (no nested structures)
+
+Standardized numeric and categorical formats
+
+# Data Type Validation 
+## Listings Dataset
+date_listed converted from object → datetime
+All numeric columns validated
+## sales Dataset
+date_sold converted from object → datetime
+## Buyers Dataset 
+Data types validated
+Missing values identified in loan_provider
+
+
+
+
+
+
+
+
+
