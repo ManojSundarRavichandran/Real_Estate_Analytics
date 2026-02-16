@@ -29,11 +29,13 @@ Standardized numeric and categorical formats
 # Data Type Validation 
 ## Listings Dataset
 date_listed converted from object → datetime
+
 All numeric columns validated
 ## sales Dataset
 date_sold converted from object → datetime
 ## Buyers Dataset 
 Data types validated
+
 Missing values identified in loan_provider
 
 
