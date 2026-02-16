@@ -38,9 +38,18 @@ Data types validated
 
 Missing values identified in loan_provider
 
+# Missing values Handling 
+Buyers who did not take loans had:
 
+loan_provider = None
 
+loan_amount = 0
 
+These were valid business cases, not errors.
+
+Therefore, missing values were preserved and not deleted.
+
+This ensures data integrity and avoids incorrect bias in financing analysis.
 
 
 
